@@ -36,8 +36,8 @@ android {
 
 dependencies {
 
-     implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.4.6'
-//    implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.5.3'
+//     implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.4.6'
+    implementation 'com.github.kirich1409:viewbindingpropertydelegate:1.5.3'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'

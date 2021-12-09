@@ -16,10 +16,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mainBinding.rootLayout.setOnClickListener {
-            if (!innerBinding.itemButton.isAttachedToWindow) {
-                // Works fine in 1.4.6, but crashes in 1.5.3
-                mainBinding.rootLayout.addView(innerBinding.itemButton)
-            }
+            // Works fine in 1.4.6, but crashes in 1.5.3
+            mainBinding.rootLayout.addView(innerBinding.itemButton)
         }
     }
 }
